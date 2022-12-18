@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    margin: auto;
+    overflow: auto;
+    background: linear-gradient(black, rgb(44, 44, 44));
+    animation: gradient 15s ease infinite;
+    background-size: cover;
+    z-index: 1;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+#novelDiv {
+    position: relative;
+    margin-left: 16%;
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+#dialogDiv {
+    font-family: "Deja Vu Sans", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    width: 1012px;
+    height: 17%;
+    top: 450px;
+    left: 0;
+    padding: 5px;
+    background-color: #282623;
+    color: white;
+    text-align: left;
+    filter: alpha(opacity=75);
+    opacity: 0.75;
+}
+
+.menuItem {
+    font-family: "Deja Vu Sans", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-color: #0050a0;
+    color: white;
+    text-align: center;
+    width: 75%;
+    margin: 0.5em auto;
+    padding: 0.5em 3em;
+    border-radius: 15px;
+}
+
+.menuItem:hover {
+    background-color: #ff8c00;
+}
+

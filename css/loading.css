@@ -1,0 +1,79 @@
+/* ==========================================================================
+    GENERAL
+========================================================================== */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    background-color: black;
+    background-size: cover;
+    color: #FFFFFF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+  }
+
+  .boo{
+    opacity: 0;
+    transition: all 2s;
+
+  }
+
+  .boo:hover {
+    display: block;
+    opacity: 1;
+    transition: all 2s;
+  }
+  
+  
+  .tc{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+/* ==========================================================================
+    BARRE DE CHARGEMENT
+========================================================================== */
+
+
+#Progress_Status {
+    margin-top: 50px;
+    margin-left: 145px;
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    
+  }
+
+  .click{
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 42%;
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+  }
+
+  .click:hover {
+    box-shadow: 2px 2px 2px 2px white;
+    transition: all 0.5s;
+  }
+    
+  #myprogressBar {
+    width: 0%;
+    height: 20px;
+    background-color: #ffffff;
+  }
+
